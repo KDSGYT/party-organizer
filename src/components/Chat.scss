@@ -1,0 +1,26 @@
+.chat{
+    content:" ";
+    height:100%;
+    // border:2px solid black;
+    box-sizing: border-box;
+    width: 100%;
+    .display-area{
+        display: grid;
+        grid-template-columns: 40% auto auto ;
+        
+        .grid-item{
+            border:2px solid black;
+            
+        }
+        #display-picture{
+            display: flex;
+            flex-direction: column;
+            border:2px solid black;
+            border-radius: 100%;
+            background-color: grey;
+            width: 45px;
+            height:45px;
+        }
+
+    }
+}

@@ -1,0 +1,18 @@
+$whatsapp-green: #25D366;
+$placeholder-color: #5e2f2f;
+
+.window {
+    width: 100vw;
+    height: 100vh;
+    // border:2px solid black;
+    // margin:auto;
+    overflow: hidden;
+    .chat-area {
+        height: 95%;
+        width: 90%;
+        background-color: $placeholder-color;
+        // margin:2vh auto;
+        margin:2vh auto;
+
+    }
+}
